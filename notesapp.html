@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotesBook</title>
+    <link rel="stylesheet" href="notesapp.css">
+</head>
+
+<body> 
+    <div class="inputBox">
+        <input type="search" name="Search" id="search" onkeyup="searchMenu()" placeholder="Search">
+    </div>
+    <div id="togglebox" class="togglebox">
+        <div class="centerline"></div>
+    </div>
+    <div class="container">
+        <div id="titleBox" class="titleBox">
+            <div class="notesTitle">
+                <small>Notes Title</small>
+                <button title="Click to clear all notes" onclick="clearAllNotes()" id="clearNotes">Clear All Notes</button>
+            </div>
+                <div id="menu">
+                </div>
+        </div>
+        <div class="box">
+            <div class="addTitleBox">
+                <h3>Add Title</h3>
+                <textarea placeholder="Type the Title about your notes.." name="textarea" id="titleTextarea" cols="30"
+                    rows="2"></textarea>
+                <small class="small" id="smallTitle"></small>
+            </div>
+
+            <div class="addNoteBox" id="addNoteBox">
+                <h3>Add Note</h3>
+                <small class="small" id="smallNote"></small>
+                <textarea placeholder="Type the Title about your notes.." name="textarea" id="textTextarea" cols="30"
+                    rows="10"></textarea>
+                <button id="btn" disabled class="addBtn" type="submit">Add Note</button>
+            </div>
+            <div class="notes" id="displayNote">
+
+            </div>
+        </div>
+
+    </div>
+    <footer><p>kuldeepSingh@copyright1997</p></footer>
+</body>
+<script src="notesapp.js"></script>       
+</html>
