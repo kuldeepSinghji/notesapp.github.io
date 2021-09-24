@@ -283,7 +283,7 @@ footer p{
  .titleBox{
      display: none;
      max-height: 100vh;
-     width: 40%;
+     width: 50%;
      position: absolute;
      left: 0;
  }
@@ -316,6 +316,9 @@ footer p{
      font-size:12px
     }
  footer{
+     position:absoulte;
+     left:0;
+     bottom:0;
      width: 100%;
      z-index: 1;
  }
