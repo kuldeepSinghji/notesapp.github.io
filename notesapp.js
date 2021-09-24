@@ -177,7 +177,7 @@ let togglebox = document.getElementById("togglebox");
 let titlebox = document.getElementById("titleBox");
 
 document.onclick = function (e) {
-    if (e.target.id !== "togglebox") {
+    if (e.target.id !== "togglebox" && e.target.id !== "search") {
         togglebox.classList.remove("toggle");
         titlebox.classList.remove("display");
     }
