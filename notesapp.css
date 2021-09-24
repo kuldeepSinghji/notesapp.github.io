@@ -291,9 +291,7 @@ footer p{
  .titleBox{
      display: none;
      max-height: 100vh;
-     width: 30%;
-     /* font-size: ; */
-     /* z-index: -1; */
+     width: 40%;
      position: absolute;
      left: 0;
  }
@@ -322,8 +320,9 @@ footer p{
  .tabcontent p{
      color: red;
  }
- 
-
+ .notesTitle button{
+     font-size:12px
+    }
  footer{
      position: absolute;
      left: 0;
