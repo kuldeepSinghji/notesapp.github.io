@@ -56,7 +56,6 @@ body {
     font-size: 16px;
     border-bottom: 1px solid gray;
     user-select: none;
-    /* margin: 1px 0px; */
 }
 
 #menu li:hover {
@@ -78,19 +77,14 @@ body {
 
 .box {
     display: inline-block;
-    /* border: 2px solid red; */
     margin-top: 44px;
     margin-left: 14px;
     width: 82%
 }
 
 .box h3 {
-    /* position: relative; */
     display: inline-block;
     margin-bottom: 10px;
-    /* text-decoration: underline; */
-    /* border: 2px solid black; */
-    
     font-size: 23px;
 }
 
@@ -103,7 +97,6 @@ body {
 }
 
 .box textarea {
-    /* display: inline-block; */
     width: 100%;
     border: 2px solid gray;
     padding: 4px;
@@ -114,13 +107,10 @@ body {
 }
 
 .addNoteBox {
-    /* border: 2px solid red; */
     margin-top: 30px;
-    /* display: none; */
 }
 
 .addNoteBox textarea {
-    /* display: inline-block; */
     width: 100%;
     border: 2px solid gray;
     padding: 4px;
@@ -281,7 +271,6 @@ footer p{
 @media only screen and (max-width:640px){
  .titleBox{
      display: none;
-     max-height: 100vh;
      width: 50%;
      position: absolute;
      left: 0;
@@ -315,10 +304,7 @@ footer p{
      font-size:16px
     }
  footer{
-     position:absolute;
-     left:0;
-     bottom:0;
      width: 100%;
-     z-index: 1;
+     margin-top:40px;
  }
 }
