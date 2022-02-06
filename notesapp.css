@@ -274,8 +274,9 @@ footer p{
      width: 50%;
      position: absolute;
      left: 0;
-     height:80%;
-     overflow: hidden;
+     max-height:80%;
+     overflow-y: hidden;
+     overflow-x:auto;
  }
  .display{
     display: block;
